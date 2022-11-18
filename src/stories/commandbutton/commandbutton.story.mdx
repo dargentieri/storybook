@@ -1,6 +1,14 @@
 import { Story, Preview, Meta, Props } from '@storybook/addon-docs/blocks'
 import CommandButton from '../../components/commandbutton.vue'
 
+export const myStory = () => <Button>Hello, World!</Button>myStory.story = {
+parameters: {
+       design: {
+          type: 'figma',
+          url: ''
+       }
+    }
+ }
 <Meta title="CommandButton/Docs" Component={CommandButton} />
 
 # CommandButton
