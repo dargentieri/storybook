@@ -33,6 +33,7 @@
     "@storybook/vue": "6.4.13",
     "@vue/babel-preset-jsx": "^1.2.4",
     "babel-loader": "^8.2.2",
+    "chromatic": "^6.11.4",
     "cross-env": "^7.0.3",
     "css-loader": "^6.2.0",
     "file-loader": "^6.2.0",
