@@ -17,14 +17,6 @@ export default {
   },
   decorators: [templateDecorator]
 }
-export const myStory = () => <Button>Hello, World!</Button>myStory.story = {
-parameters: {
-       design: {
-          type: 'figma',
-          url: 'https://www.figma.com/file/UThvnUIPTAFJPPbc1h6OI5/Storybook-Connect-(Community)?node-id=0%3A1&t=PzfkCWi47Qd4TkJn-1'
-       }
-    }
- }  
 
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
