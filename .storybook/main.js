@@ -11,6 +11,7 @@ module.exports = {
     '@storybook/addon-viewport',
     '@storybook/addon-backgrounds',
     '@storybook/addon-a11y',
+	'storybook-addon-designs'
   ],
   core: {
     builder: 'webpack4',
